@@ -1,0 +1,43 @@
+# --- Base de Datos ---
+# No subir los binarios de MySQL (son pesados y dependen del Sistema Operativo)
+db_data/
+
+# --- Java & Maven ---
+# Archivos compilados y temporales generados por Maven
+target/
+*.jar
+*.war
+*.ear
+.mvn/
+*.class
+
+# --- Logs ---
+# Archivos de registro generados en tiempo de ejecución
+*.log
+logs/
+
+# --- IDEs (Configuraciones locales) ---
+# Evita subir preferencias personales de editores o IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.settings/
+.project
+.classpath
+.factorypath
+bin/
+
+# --- Docker ---
+# Archivos temporales o de contexto de Docker
+.docker/
+
+# --- Sistema Operativo ---
+# Archivos basura automáticos de Windows o macOS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- Variables de Entorno ---
+# Solo si decides usar archivos .env en el futuro para contraseñas reales
+.env
